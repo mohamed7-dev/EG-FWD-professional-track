@@ -1,5 +1,8 @@
 # Landing Page Project
 
+## Live Preview 
+* [Preview GitHub page](https://mohamed7-dev.github.io/EG-FWD-professional-track/)
+
 ## Table of Contents
 * [Development](#development)
     * [HTML modifications](#html)
