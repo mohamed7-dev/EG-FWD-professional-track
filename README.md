@@ -28,6 +28,8 @@ in order to make evrything dynamic, i created the following functions:
 - [x] *addNavLinks* to add links to the *navbar__listnavbar__list* according to the number of sections created.
 - [x] *toggleVisibilty* and *toTop* functions to handle the visibility and the scrolling mechanism after scrolling so far down from the navbar.
 - [x] *observeSection* function to observe the section element in focus when scrolling.
+- [X] *toggleNavBarVisibility* function to make navbar responsive accross all media screens. 
+- [X] *navigateToSection* function to scroll to the corresponding section in a smoothy way.
 
 ## Dependencies
 - HTML5 
