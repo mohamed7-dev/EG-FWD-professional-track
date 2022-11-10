@@ -102,9 +102,10 @@ when clicking any where in the navbar menu
 const navBarMenu = document.querySelector(".navbar__menu");
 navBarMenu.addEventListener("click" , navigateToSection);
 function navigateToSection(e){
+  e.preventDefault();
   if(e.target.dataset.navLink){
     document.querySelector(`#${e.target.dataset.navLink}`).scrollIntoView({behavior:"smooth"});
-    
+    console.log(e.target)
     //if media matches the width upto 950px click on burger icon
     let smallScreenNav = window.matchMedia("(max-width:950px)");
     if(smallScreenNav.matches){
